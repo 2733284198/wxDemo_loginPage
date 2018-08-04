@@ -1,0 +1,9 @@
+<!--pages/index/refer.wxml-->
+<view>
+
+<scroll-view>
+  <view class='demoList' wx:for="{{demoList}}">
+    <button class="btn" bindtap="{{item.demoFunction}}">{{item.demoName}}         </button>
+  </view>
+</scroll-view>
+</view> 

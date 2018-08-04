@@ -1,12 +1,15 @@
 {
+  
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/index/refer"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText":"wxDemo_loginPage",
     "navigationBarTextStyle":"black"
   }
 }
